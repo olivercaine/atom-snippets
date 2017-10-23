@@ -1,0 +1,11 @@
+{
+  "name": "atom-snippets",
+  "main": "./lib/atom-snippets",
+  "version": "1.0.0",
+  "description": "Snippets for Atom",
+  "repository": "https://github.com/olliecaine27/atom-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
