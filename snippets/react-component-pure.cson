@@ -1,0 +1,10 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  'React Component Pure':
+    'prefix': 'rcp'
+    'body': """
+    import React from 'react'
+
+    export default () => (
+      <div>Pure component!!</div>
+    )
+    """

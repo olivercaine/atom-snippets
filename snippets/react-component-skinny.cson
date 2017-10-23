@@ -1,0 +1,14 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  'React Component Skinny':
+    'prefix': 'rcs'
+    'body': """
+    import React from 'react'
+
+    export default class extends React.Component {
+        render () {
+            return (
+              <div>Component content</div>
+            )
+        }
+    }
+    """
