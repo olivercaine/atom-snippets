@@ -3,7 +3,7 @@
 Clone the repo
 `git clone https://github.com/olliecaine27/atom-snippets.git`
 
-Change directory to the repo
+CD in
 `cd atom-snippets`
 
 Symlink the repo to Atom's packages folder
