@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "require":
+    "prefix": "re"
+    "body": """
+    require('${1:module}');
+    """

@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "function call":
+    "prefix": "call"
+    "body": """
+    ${1:methodName}.call(${2:context}, ${3:arguments})
+    """

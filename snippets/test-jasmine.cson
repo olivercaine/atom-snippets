@@ -1,0 +1,16 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  'Test Method Jasmine':
+    'prefix': 'tmj'
+    'body': """
+    describe('${1:UnitOfWork}', () => {
+        describe('${2:StateUnderTest}', () => {
+            it('${3:ExpectedBehaviour}', () => {
+                // arrange
+
+                // act
+
+                // assert
+            })
+        })
+    })
+    """

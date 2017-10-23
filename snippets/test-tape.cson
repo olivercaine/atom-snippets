@@ -1,0 +1,13 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  'Test Method Tape':
+    'prefix': 'tmt'
+    'body': """
+    test('${1:UnitOfWork}_${2:StateUnderTest}_${3:ExpectedBehaviour}', t => {
+        // arrange
+
+        // act
+
+        // assert
+        t.end()
+    })
+    """

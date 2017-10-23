@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "assert.notEqual":
+    "prefix": "asn"
+    "body": """
+    assert.notEqual(${1:actual}, ${2:expected});
+    """

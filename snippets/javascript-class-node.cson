@@ -1,0 +1,11 @@
+  'JavaScript Class Node':
+    'prefix': 'jscn'
+    'body': """
+    'use strict'
+
+    module.exports = class {
+        constructor (prop) {
+            this._prop = prop
+        }
+    }
+    """

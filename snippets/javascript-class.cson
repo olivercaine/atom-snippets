@@ -1,0 +1,10 @@
+  'JavaScript Class ES6':
+    'prefix': 'jsc'
+    'body': """
+    export default class {
+        constructor () {
+            $1
+        }
+    }
+
+    """
