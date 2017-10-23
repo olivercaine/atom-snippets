@@ -13,5 +13,16 @@ Install the package into Atom
 `apm install`
 `apm link`
 
-Restart Atom to load the package.
-The package should appear in Preferences->Packages.
+Restart Atom to load the package (it should appear in Preferences->Packages).
+
+Test by opening a JavaScript file in Atom and typing 'rcs' (React Component Skinny) and hitting tab. The following code should appear:
+
+```import React from 'react'
+export default class extends React.Component {
+    render () {
+        return (
+          <div>Component content</div>
+        )
+    }
+}
+```
