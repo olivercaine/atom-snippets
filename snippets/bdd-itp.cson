@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "it pending":
+    "prefix": "itp"
+    "body": """
+    it('${1:description}');
+    """
