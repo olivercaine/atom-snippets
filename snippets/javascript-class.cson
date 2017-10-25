@@ -1,3 +1,4 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
   'JavaScript Class ES6':
     'prefix': 'jsc'
     'body': """
