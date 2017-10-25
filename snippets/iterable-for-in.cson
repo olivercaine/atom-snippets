@@ -1,0 +1,10 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "Iterate over an object's properties":
+    "prefix": "itob"
+    "body": """
+    for (let prop in ${1:obj}) {
+    \tif (${1:obj}.hasOwnProperty(prop)) {
+    \t\t${0:// body...};
+    \t}
+    }
+    """

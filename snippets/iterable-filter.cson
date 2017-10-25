@@ -1,8 +1,8 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
   "Filter an array into an array using a predicate":
-    "prefix": "arf"
+    "prefix": "itfil"
     "body": """
     let filtered = ${1:iterable}.filter((${2:element}) => {
-        ${0:return element.active};
+    \t${0:return element.active};
     })
     """

@@ -1,8 +1,8 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
   "Array map - create an array from what's returned from a predicate":
-    "prefix": "arm"
+    "prefix": "itmap"
     "body": """
     let newArray = ${1:iterable}.map((element, index, ${1:iterable}) => {
-        ${0:return element.property};
+    \t${0:return element.property};
     })
     """

@@ -1,25 +1,3 @@
-// 'arf'
-let filtered = iterable.filter((element) => {
-    return element.active;
-})
-
-// arfin
-let found = iterable.find((item) => {
-    return item.id == 1;
-});
-
-// 'arfi'
-for (prop in obj) {
-    if (obj.hasOwnProperty(prop)) {
-        // body...
-    }
-}
-
-// 'arm'
-let newArray = waves.map((element, index, waves) => {
-    return element.type;
-})
-
 // 'desc'
 describe('description', function() {
     // body...
@@ -63,11 +41,6 @@ methodName.apply(context, [arguments])
 // 'call'
 methodName.call(context, arguments)
 
-// 'iife'
-(function(window, document) {
-    // body...
-})(window, document);
-
 // 'fn'
 function methodName (arguments) {
     // body...
@@ -85,6 +58,28 @@ methodName.call(context, arguments)
 ClassName.prototype.methodName = function(arguments) {
     // body...
 }
+
+// 'itfil'
+let filtered = iterable.filter((element) => {
+    return element.active;
+})
+
+// 'itfin'
+let found = iterable.find((element) => {
+    return item.id == 1;
+});
+
+// 'itob'
+for (let prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+        // body...;
+    }
+}
+
+// 'imap'
+let newArray = iterable.map((element, index, iterable) => {
+    return element.property;
+})
 
 // 'jp'
 JSON.parse(obj);

@@ -1,8 +1,8 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
   "Find first element in an array":
-    "prefix": "arfin"
+    "prefix": "itfin"
     "body": """
     let found = ${1:iterable}.find((${2:element}) => {
-        ${0:return item.id == 1};
+    \t${0:return item.id == 1};
     });
     """
