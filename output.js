@@ -16,8 +16,8 @@ for (prop in obj) {
 }
 
 // 'arm'
-let animal_names = animals.map((animal, index, animals) => {
-    return animal.name
+let newArray = waves.map((element, index, waves) => {
+    return element.type;
 })
 
 // 'desc'

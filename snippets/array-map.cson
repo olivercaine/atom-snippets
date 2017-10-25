@@ -2,7 +2,7 @@
   "Array map":
     "prefix": "arm"
     "body": """
-    let result = array.map((object, index, array) => {
-        return object.property
+    let newArray = ${1:iterable}.map((element, index, ${1:iterable}) => {
+        ${0:return element.property};
     })
     """

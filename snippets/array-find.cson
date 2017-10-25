@@ -3,6 +3,6 @@
     "prefix": "arfin"
     "body": """
     let found = ${1:iterable}.find((${2:element}) => {
-        ${0:return item.id == 1;}
+        ${0:return item.id == 1};
     });
     """
