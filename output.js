@@ -15,11 +15,6 @@ for (prop in obj) {
     }
 }
 
-// 'arfe'
-myArray.forEach(function(elem) {
-    // body...
-});
-
 // 'arm'
 let animal_names = animals.map((animal, index, animals) => {
     return animal.name

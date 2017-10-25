@@ -1,8 +1,0 @@
-".source.js, .source.jsx, .source.ts, .source.js-semantic":
-  "Array forEach":
-    "prefix": "arfe"
-    "body": """
-    ${1:myArray}.forEach(function(${2:elem}) {
-        ${0:// body...}
-    });
-    """
