@@ -16,6 +16,22 @@ it('description', function() {
     // body...
 });
 
+// 'clan'
+'use strict'
+
+module.exports = class {
+    constructor (prop) {
+        this._prop = prop
+    }
+}
+
+// 'cla'
+export default class {
+    constructor () {
+
+    }
+}
+
 // 'cl'
 console.log(obj);
 
@@ -29,11 +45,6 @@ for (prop in obj) {
     if (obj.hasOwnProperty(prop)) {
         // body...
     }
-}
-
-// 'afn'
-function(arguments) {
-    // body...
 }
 
 // 'apply'
@@ -52,7 +63,7 @@ function methodName (arguments) {
     // body...
 }
 
-// 'ofn'
+// 'fno'
 functionName: function(arguments) {
     // body...
 }
@@ -64,12 +75,6 @@ methodName.call(context, arguments)
 ClassName.prototype.methodName = function(arguments) {
     // body...
 }
-
-// 'jscn'
-TODO jscn
-
-// 'jsc'
-TODO jsc
 
 // 'jp'
 JSON.parse(obj);
@@ -148,10 +153,3 @@ setInterval(function() {
 setTimeout(function() {
     // body...
 }, delay);
-
-
-
-
-
-
-//

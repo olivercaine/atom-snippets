@@ -1,11 +1,10 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
   'JavaScript Class ES6':
-    'prefix': 'jsc'
+    'prefix': 'cla'
     'body': """
     export default class {
         constructor () {
             $1
         }
     }
-
     """
