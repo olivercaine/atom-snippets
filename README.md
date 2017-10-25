@@ -2,6 +2,11 @@
 
 To solve the problem of having to maintain a single large snippets file in Atom. This plugin/repo also makes it much easier to share between people/teams.
 
+## Principles
+
+- All snippets must be supported by browsers 2011 (IE9) onwards after Babel compilation.
+- No duplicate snippets, i.e. no duplicates between lodash and pure ES6.
+
 ## Development
 
 Clone the repo
