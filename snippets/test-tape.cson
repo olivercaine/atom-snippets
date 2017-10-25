@@ -3,11 +3,10 @@
     'prefix': 'tmt'
     'body': """
     test('${1:UnitOfWork}_${2:StateUnderTest}_${3:ExpectedBehaviour}', t => {
-        // arrange
+    \t// arrange
 
-        // act
+    \t// act
 
-        // assert
-        t.end()
+    \t// assert
     })
     """

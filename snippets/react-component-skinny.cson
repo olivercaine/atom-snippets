@@ -5,10 +5,10 @@
     import React from 'react'
 
     export default class extends React.Component {
-        render () {
-            return (
-              <div>Component content</div>
-            )
-        }
+    \trender () {
+    \t\treturn (
+    \t\t\t<div>Component content</div>
+    \t\t)
+    \t}
     }
     """

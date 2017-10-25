@@ -1,5 +1,5 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
-  "Array map - create an array from what's returned from a predicate":
+  "array map - create an array from what's returned from a predicate":
     "prefix": "itmap"
     "body": """
     let newArray = ${1:iterable}.map((element, index, ${1:iterable}) => {

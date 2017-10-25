@@ -1,5 +1,5 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
-  "Iterate over an object's properties":
+  "iterate over an object's properties":
     "prefix": "itob"
     "body": """
     for (let prop in ${1:obj}) {

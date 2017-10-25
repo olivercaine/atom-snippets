@@ -3,14 +3,14 @@
     'prefix': 'tmj'
     'body': """
     describe('${1:UnitOfWork}', () => {
-        describe('${2:StateUnderTest}', () => {
-            it('${3:ExpectedBehaviour}', () => {
-                // arrange
+    \tdescribe('${2:StateUnderTest}', () => {
+    \t\tit('${3:ExpectedBehaviour}', () => {
+    \t\t\t// arrange
 
-                // act
+    \t\t\t// act
 
-                // assert
-            })
-        })
+    \t\t\t// assert
+    \t\t})
+    \t})
     })
     """
