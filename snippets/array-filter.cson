@@ -1,5 +1,5 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
-  "Filter an array using a predicate":
+  "Filter an array into an array using a predicate":
     "prefix": "arf"
     "body": """
     let filtered = ${1:iterable}.filter((${2:element}) => {

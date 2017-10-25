@@ -1,5 +1,5 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
-  "Find first in array":
+  "Find first element in an array":
     "prefix": "arfin"
     "body": """
     let found = ${1:iterable}.find((${2:element}) => {
