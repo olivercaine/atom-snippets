@@ -1,0 +1,10 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "Array for in":
+    "prefix": "arfi"
+    "body": """
+    for (${1:prop} in ${2:obj}) {
+        if (${2:obj}.hasOwnProperty(${1:prop})) {
+            ${0:// body...}
+        }
+    }
+    """

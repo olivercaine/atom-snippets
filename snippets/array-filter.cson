@@ -1,0 +1,9 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "Filter an array using a predicate":
+    "prefix": "arf"
+    "body": """
+    let filtered = ${1:array}.filter((${2:element}) => {
+        ${0:// body...}
+        pop
+    })
+    """

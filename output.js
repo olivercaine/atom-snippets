@@ -1,3 +1,28 @@
+// 'arf'
+let filtered = waves.filter((something) => {
+    // return element.active;
+})
+
+// arfin
+arfin
+
+// 'arfi'
+for (prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+        // body...
+    }
+}
+
+// 'arfe'
+myArray.forEach(function(elem) {
+    // body...
+});
+
+// 'arm'
+let animal_names = animals.map((animal, index, animals) => {
+    return animal.name
+})
+
 // 'desc'
 describe('description', function() {
     // body...
@@ -34,18 +59,6 @@ export default class {
 
 // 'cl'
 console.log(obj);
-
-// 'fe'
-myArray.forEach(function(elem) {
-    // body...
-});
-
-// 'fi'
-for (prop in obj) {
-    if (obj.hasOwnProperty(prop)) {
-        // body...
-    }
-}
 
 // 'apply'
 methodName.apply(context, [arguments])
@@ -102,6 +115,56 @@ module.exports = name;
 
 // 're'
 require('module');
+
+// 'rcf'
+import React from 'react'
+
+export default class extends React.Component {
+    constructor (props) {
+        super(props)
+        // this.setState({property: props.property);
+    }
+
+    componentWillMount () {
+        // Invoked immediately before mounting occurs.
+    }
+
+    render () {
+        return (
+          <div>Component content</div>
+        )
+    }
+
+    componentDidMount () {
+        // Invoked immediately after a component is mounted.
+        // This is a good place to retrieve data from a remote endpoint.
+        // Setting state in this method will trigger a re-rendering.
+    }
+
+    componentWillReceiveProps (nextProps) {
+        // Invoked before a mounted component receives new props.
+        // Doesn't get called during mounting.
+    }
+
+    shouldComponentUpdate (nextProps, nextState) {
+        // Lets React know if a component's output is not affected by the current change in state or props.
+        // If false is returned here then componentWillUpdate(), render(), and componentDidUpdate() will not be invoked.
+    }
+
+    componentWillUpdate (nextProps, nextState) {
+        // Invoked immediately before rendering when new props or state are being received.
+    }
+
+    componentDidUpdate (prevProps, prevState) {
+        // Invoked immediately after updating occurs.Not called for the initial render.
+    }
+
+    componentWillUnmount () {
+        // Invoked immediately before a component is unmounted and destroyed.
+        // Perform any necessary cleanup in this method: invalidating timers, cancelling network requests,
+        // cleaning up any DOM elements etc.
+    }
+}
 
 // 'rcp'
 import React from 'react'

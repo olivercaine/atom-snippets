@@ -1,0 +1,8 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "Array map":
+    "prefix": "arm"
+    "body": """
+    let result = array.map((object, index, array) => {
+        return object.property
+    })
+    """
