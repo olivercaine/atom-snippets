@@ -2,8 +2,7 @@
   "Filter an array using a predicate":
     "prefix": "arf"
     "body": """
-    let filtered = ${1:array}.filter((${2:element}) => {
-        ${0:// body...}
-        pop
+    let filtered = ${1:iterable}.filter((${2:element}) => {
+        ${0:return element.active;}
     })
     """

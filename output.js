@@ -1,10 +1,12 @@
 // 'arf'
-let filtered = waves.filter((something) => {
-    // return element.active;
+let filtered = iterable.filter((element) => {
+    return element.active;
 })
 
 // arfin
-arfin
+let found = iterable.find((item) => {
+    return item.id == 1;
+});
 
 // 'arfi'
 for (prop in obj) {

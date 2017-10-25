@@ -2,7 +2,7 @@
   "Find first in array":
     "prefix": "arfin"
     "body": """
-    ${1:iterable}.find((${2:item}) => {
-      ${0}
+    let found = ${1:iterable}.find((${2:element}) => {
+        ${0:return item.id == 1;}
     });
     """
