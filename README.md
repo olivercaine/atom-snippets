@@ -1,7 +1,11 @@
+## Why?
+
+To solve the problem of having to maintain a single large snippets file in Atom. This plugin/repo also makes it much easier to share between people/teams.
+
 ## Development
 
 Clone the repo
-`git clone https://github.com/olliecaine27/atom-snippets.git`
+`git clone https://github.com/olliecaine27/atom-snippets`
 
 CD in
 `cd atom-snippets`
