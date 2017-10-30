@@ -1,6 +1,6 @@
 ".source.js, .source.jsx, .source.ts, .source.js-semantic":
-  "named function":
-    "prefix": "fn"
+  "function named":
+    "prefix": "fun"
     "body": """
     function ${1:methodName} (${2:arguments}) {
     \t${0:// body...}

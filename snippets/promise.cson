@@ -1,0 +1,15 @@
+
+
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  'Promise':
+    'prefix': 'promise'
+    'body': """
+    let ${1:myPromise} = new Promise((resolve, reject) => {
+    \t${0}if (/* condition */) {
+    \t\tresolve(/* value */);  // fulfilled successfully
+    \t}
+    \telse {
+    \t\treject(/* reason */);  // error, rejected
+    \t}
+    });
+    """

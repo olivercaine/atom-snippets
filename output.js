@@ -41,12 +41,12 @@ methodName.apply(context, [arguments])
 // 'call'
 methodName.call(context, arguments)
 
-// 'fn'
+// 'fun'
 function methodName (arguments) {
     // body...
 }
 
-// 'fno'
+// 'fuo'
 functionName: function(arguments) {
     // body...
 }
@@ -108,6 +108,16 @@ module.exports = name;
 // 're'
 require('module');
 
+// 'promise'
+let myPromise = new Promise((resolve, reject) => {
+    if (/* condition */) {
+        resolve(/* value */);  // fulfilled successfully
+    }
+    else {
+        reject(/* reason */);  // error, rejected
+    }
+});
+
 // 'rcf'
 import React from 'react'
 
@@ -162,7 +172,7 @@ export default class extends React.Component {
 import React from 'react'
 
 export default () => (
-  <div>Pure component!!</div>
+  <div>Pure component</div>
 )
 
 // 'rcs'
