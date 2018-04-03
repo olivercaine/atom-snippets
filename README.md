@@ -18,7 +18,7 @@ CD in
 Symlink the repo to Atom's packages folder
 `ln -s "$(pwd -P)" ~/.atom/packages/atom-snippets`
 
-Install the package into Atom
+Install the package into Atom using Terminal
 `apm install`
 `apm link`
 
